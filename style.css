@@ -35,6 +35,7 @@ a {
 }
 .headers > h2 {
 	margin-left:20px;
+
 }
 
 .headers > nav {
@@ -90,7 +91,7 @@ a {
 }
 
 /* 마우스 오버 시 드롭다운 색상 변경 */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #ffffff}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -100,4 +101,25 @@ a {
 /* 드롭다운 콘텐츠가 표시될 때 드롭다운 버튼의 배경색 변경 */
 .dropdown:hover .dropbtn {
     background-color: #ffffff;
+}
+
+.screen{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin-top:10%;
+	margin-left:10px;
+	margin-right:10px;
+	display: flex; 
+	padding: 10px;
+}
+.screen img {
+	margin: 25px;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #767474;
+    width: 27%;
+	padding: 7px;
 }
