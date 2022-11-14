@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|ZCOOL+QingKe+HuangYou');
 
+@font-face {
+    font-family: 'SUIT-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
 	margin:0;
 	padding:0;
@@ -122,4 +129,39 @@ a {
     box-shadow: 5px 5px 15px 5px #767474;
     width: 27%;
 	padding: 7px;
+}
+
+.headerTitle{
+	display: flex;
+	justify-content : center;
+	margin-top: 22px;
+	font-size: 50px;
+	font-family: 'Karla', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-shadow: 3px 2px 3px rgb(255 255 255 / 20%), 
+	3px 1px 10px rgb(84 84 84 / 99%), -1px -1px 0 #000,
+	1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h1 {
+	cursor: pointer;
+}
+
+.indexfont {
+	background-color: #f9f9f9;
+	position: fixed;
+	width: 300px;
+}
+.indexfont div {
+	margin-bottom: 15px;
+}
+.section_btn {
+	background-color: #f9f9f9;
+}
+.section_btn:hover {
+	background-color: #ddd;
+}
+.indexfont div a{
+	font-size:30px;
+	font-family: 'SUIT-Medium';
 }
