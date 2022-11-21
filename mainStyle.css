@@ -69,7 +69,7 @@ a {
     margin-left:30px;
 }
 
-/* Dropdown Button */
+/* 드롭다운 버튼 */
 .dropbtn {
     background-color: #ece7e1;
     color: rgb(0, 0, 0);
@@ -115,6 +115,7 @@ a {
     background-color: #ece7e1;
 }
 
+/* 메인화면 이미지 디자인 */
 .screen{
 	justify-content: center;
 	align-items: center;
@@ -136,6 +137,7 @@ a {
 	padding: 7px;
 }
 
+/* header 부분 */
 .headerTitle{
 	display: flex;
 	justify-content : center;
@@ -152,6 +154,7 @@ h1 {
 	cursor: pointer;
 }
 
+/* 텍스트박스 */
 .indexfont {
 	text-align: center;
 	background-color: #f9f9f9;
@@ -161,6 +164,8 @@ h1 {
 	margin-top: 80px;
 	margin-left:16%;
 	border: 1px solid #ebeef1;
+
+    border-radius: 20px;
 }
 .indexfont div {
 	margin-bottom: 10px;
@@ -180,13 +185,17 @@ h1 {
 	background-color: #f9f9f9;
 	position: fixed;
 	width: 495px;
-	height: 490px;
+	height: auto;
 	margin-top: 80px;
 	margin-left:34%;
 	border: 1px solid #ebeef1;
 	padding:20px 30px 20px 30px;
 	font-family: 'SUIT-Medium';
-	font-size: 25px;
+	font-size: 30px;
+
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(226, 201, 201);
 }
 
 .buttons {
@@ -204,10 +213,6 @@ h1 {
     max-width: max-content;
 }
 
-:root{
-
-
-}
 *{
     padding: 0;
     margin: 0;
@@ -224,6 +229,8 @@ h1 {
     align-items: center;
 
 }
+
+/* 메인화면 박스 그림자 */
 .shadow{
     -webkit-box-shadow: 27px 43px 43px -26px rgba(89,89,89,0.39);
     -moz-box-shadow: 27px 43px 43px -26px rgba(89,89,89,0.39);
@@ -235,6 +242,8 @@ h1 {
     box-shadow: 45px 45px 104px -33px rgba(38,38,38,0.92);
 
 }*/
+
+/* 로그인 페이지 */
 .login-form-container{
  
     background:#f5f5f5 ;
@@ -354,4 +363,22 @@ background: linear-gradient(162deg, rgba(105,163,255,1) 0%, rgba(43,125,254,1) 5
     font-size: 11px;
     color: gray;
 
+}
+
+/* 파일 업로드 디자인 */
+.fileupload {
+    background-color: #f9f9f9;
+	position: fixed;
+	width: 495px;
+	height: auto;
+	margin-top: 80px;
+	margin-left:34%;
+	border: 1px solid #ebeef1;
+	padding:20px 30px 20px 30px;
+	font-family: 'SUIT-Medium';
+	font-size: 20px;
+
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(226, 201, 201);
 }
