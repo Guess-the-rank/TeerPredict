@@ -345,7 +345,7 @@ background: linear-gradient(287deg, rgba(255,255,255,1) 0%, rgba(243,244,244,1) 
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
 }
 .login-btn-wrap .login-btn{
     width:95px;
@@ -402,4 +402,11 @@ background: linear-gradient(287deg, rgba(255,255,255,1) 0%, rgba(243,244,244,1) 
     margin-top:5%;
     text-align: center;
     font-size: 180%;
+}
+.formSubmit {
+    margin-top:6%;
+    border-radius: 15px;
+    padding:5px;
+    font-size:180%;
+    margin-left:42.3%;
 }
