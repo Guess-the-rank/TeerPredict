@@ -424,13 +424,35 @@
             font-size:180%;
             margin-left:42.3%;
         }
+        .layerBox {
+            position:absolute;
+            left:45%;
+            top:40%; 
+            width:auto; 
+            height:auto;
+            display:none; 
+            border: solid 1px #000000;
+            box-shadow : rgba(0,0,0,0.5) 0 0 0 9999px;
+            z-index : 100;
+            font-family: 'SUIT-Medium';
+            font-size: 20px;
+            border-radius: 2px;
+        }
+        .Canclebutton {
+            border: solid 1px #000000;
+            width:auto; 
+            height:auto;
+            margin-left:70%;
+            font-family: 'SUIT-Medium';
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
     <a href="__init__.html" class="headerTitle">GuessTheRank Valorant</a>
 
     <div class="indexfont">
-        <div class="section_btn"> <a href="Tierpredict/Tierpredict1.html"> 게임 시작 </a> </div>
+        <div class="section_btn"> <a href="Tierpredict1.html"> 게임 시작 </a> </div>
         <div class="section_btn"> <a href="video_upload.html"> 동영상 올리기 </a> </div>
         <div class="section_btn"> <a href="statics.html">동영상 목록</a> </div>
     </div>
@@ -461,7 +483,21 @@
         </select>
     </div>
     <div>
-        <button name="status" value="sent" type="submit" class="formSubmit">Send information</button>
+        <button name="status" value="sent" type="submit" class="formSubmit" onclick="inlineLayer()">Send information</button>
+    </div>
+
+    <script>
+        function inlineLayer() {
+            document.getElementById("Pop").style.display='inline';
+        }
+        function noneLayer() {
+            document.getElementById("Pop").style.display='none';
+        }
+    </script>
+
+    <div id="Pop" class="layerBox">
+        완료되었습니다. <br>
+        <button type="button" class="Canclebutton" onclick="noneLayer()">닫기</button>
     </div>
 </body>
 </html>
