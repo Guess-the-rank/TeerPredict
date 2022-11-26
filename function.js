@@ -8,3 +8,4 @@ inputFile.addEventListener("change", function(){
     video.setAttribute("src", videourl);
     video.play();
 })
+

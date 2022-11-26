@@ -1,4 +1,3 @@
-
 var points = 0;
 var indexOfCurrentVideo = 0;
 var roundCounter = 1;
